@@ -42,7 +42,8 @@ Observations from the Scatterplot:
 • ![image](https://github.com/user-attachments/assets/8068cf99-b874-495c-b9ea-192208ca8692)
 
 
-The dataset contains 10 columns, with a mix of numeric and categorical variables. Here's a brief summary: Columns:
+The dataset contains 10 columns, with a mix of numeric and categorical variables. Here's a brief summary of Columns:
+
 1. REF: Unique reference numbers (likely not useful for analysis).
 2. Company: Name of the chocolate company (categorical).
 3. Company Location: The country where the company is based (categorical).
@@ -55,14 +56,28 @@ The dataset contains 10 columns, with a mix of numeric and categorical variables
 10. Rating: The rating given to the chocolate (numeric).
 
 The analysis addresses the following:
+
 • **Geographical Trends:** Where are the best cocoa beans grown? Based on the categorical plot (e.g., average ratings by Country of Bean Origin), countries like Venezuela, Ecuador, and Madagascar often source highly-rated beans. These regions are known for their favorable climates and soil for high-quality cocoa.
+
 • Which countries produce the highest-rated chocolate bars?
 The Company Location bar plot shows that countries like Belgium, Switzerland, and France consistently produce high-rated chocolate bars. These regions have established reputations for chocolate craftsmanship, which is reflected in the ratings.
-• **Cocoa Percent and Ratings**: Is there a relationship between cocoa solids percentage and ratings? The scatterplot of Cocoa Percent vs. Rating reveals a slight positive trend, suggesting that chocolates with higher cocoa content generally receive better ratings. However, the relationship is weak and not strictly linear.
-• **Does a higher cocoa percentage correlate with better ratings?** Chocolates in the 70%–75% cocoa range tend to receive the highest ratings. Extremely high cocoa percentages (e.g., above 85%) sometimes lead to lower ratings, possibly due to the bitterness associated with higher cocoa solids.
-• **Company Performance: Which companies consistently produce high-rated chocolate bars? **A focused analysis of the Rating variable by Company can reveal top-performing companies. Based on preliminary insights, companies in regions like Switzerland and France stand out for their high ratings.
-• **Are there regional patterns in company performance?** European countries dominate in producing high-rated chocolate bars. This could be due to their access to premium cocoa beans and advanced chocolate-making techniques.
+
+• **Cocoa Percent and Ratings**: Is there a relationship between cocoa solids percentage and ratings?
+The scatterplot of Cocoa Percent vs. Rating reveals a slight positive trend, suggesting that chocolates with higher cocoa content generally receive better ratings. However, the relationship is weak and not strictly linear.
+
+• **Does a higher cocoa percentage correlate with better ratings?**
+Chocolates in the 70%–75% cocoa range tend to receive the highest ratings. Extremely high cocoa percentages (e.g., above 85%) sometimes lead to lower ratings, possibly due to the bitterness associated with higher cocoa solids.
+
+• **Company Performance: Which companies consistently produce high-rated chocolate bars? **
+A focused analysis of the Rating variable by Company can reveal top-performing companies. Based on preliminary insights, companies in regions like Switzerland and France stand out for their high ratings.
+
+• **Are there regional patterns in company performance?**
+European countries dominate in producing high-rated chocolate bars. This could be due to their access to premium cocoa beans and advanced chocolate-making techniques.
+
 • **Trends Over Time: How have chocolate ratings changed over the years?**
 The pair plot and correlation analysis show no significant change in average ratings over the years. This indicates that rating standards have remained consistent over time.
-• **Do certain regions show improvement in quality over time?** A deeper time-based analysis of Company Location and Rating is required to identify whether specific regions show improvement. However, current data does not strongly suggest significant regional trends over time.
+
+• **Do certain regions show improvement in quality over time?**
+A deeper time-based analysis of Company Location and Rating is required to identify whether specific regions show improvement. 
+However, current data does not strongly suggest significant regional trends over time.
 
