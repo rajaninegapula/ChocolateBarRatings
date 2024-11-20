@@ -29,12 +29,18 @@ Interpretation of the Correlation Heatmap:
 1. Cocoa Percent vs. Rating: Correlation is slightly positive, suggesting that higher cocoa percentages might be associated with slightly higher ratings.
 2. Review Date vs. Rating: Correlation is near zero, indicating no meaningful relationship between the year of review and ratings.
 3. Review Date vs. Cocoa Percent: Very weak negative correlation, indicating almost no relationship between the review date and cocoa percentage.
-• ![image](https://github.com/user-attachments/assets/0cc6dd19-1797-47b0-94a0-19da20c7c21c)
+
+   
+• ![image](https://github.com/user-attachments/assets/5a332a32-8b65-4dba-960f-d26b6ae87448)
 Observations from the Scatterplot:
 • There is no strong linear relationship between Cocoa Percent and Rating.
 • However, chocolates with cocoa percentages around 70%–75% seem to have more favorable ratings, indicating a potential sweet spot for cocoa content.
-• ![image](https://github.com/user-attachments/assets/1c9b7b35-e4d4-4cab-bbd9-3cd472947831)
-• ![image](https://github.com/user-attachments/assets/3fc763a1-3198-48a2-8bfa-f8facd2ab57b)
+
+
+• ![image](https://github.com/user-attachments/assets/a685afa9-3cc1-4980-b63c-2e6185dfd891)
+
+• ![image](https://github.com/user-attachments/assets/8068cf99-b874-495c-b9ea-192208ca8692)
+
 
 The dataset contains 10 columns, with a mix of numeric and categorical variables. Here's a brief summary: Columns:
 1. REF: Unique reference numbers (likely not useful for analysis).
